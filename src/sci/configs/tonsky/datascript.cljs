@@ -91,7 +91,7 @@
                               '-store (sci/copy-var -store storage-ns)
                               '-restore (sci/copy-var -restore storage-ns)
                               'IStorage IStorage-protocol
-                              ))
+                              'tail-addr (sci/copy-var storage/tail-addr storage-ns)))
 
 (def namespaces {'datascript.core core-namespace
                  'datascript.db   db-namespace
