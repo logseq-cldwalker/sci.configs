@@ -32,6 +32,8 @@
    'transact! (copy-var d/transact! core-ns)
    'create-conn (copy-var d/create-conn core-ns)
    'reset-conn! (copy-var d/reset-conn! core-ns)
+   'store (copy-var d/store core-ns)
+   'restore (copy-var d/restore core-ns)
    'restore-conn (copy-var d/restore-conn core-ns)
    'settings (copy-var d/settings core-ns)
    'from-serializable (copy-var d/from-serializable core-ns)
